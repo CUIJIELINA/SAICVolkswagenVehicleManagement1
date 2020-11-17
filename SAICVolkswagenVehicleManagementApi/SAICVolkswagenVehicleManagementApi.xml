@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SAICVolkswagenVehicleManagementApi</name>
+    </assembly>
+    <members>
+        <member name="T:SAICVolkswagenVehicleManagementApi.Controllers.MenuController">
+            <summary>
+            菜单信息控制器Api
+            </summary>
+        </member>
+        <member name="M:SAICVolkswagenVehicleManagementApi.Controllers.MenuController.#ctor(SAICVolkswagenVehicleManagement_Helper.IRepositoryWrapper)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="dbContext"></param>
+        </member>
+        <member name="M:SAICVolkswagenVehicleManagementApi.Controllers.MenuController.GetPermissionAsync">
+            <summary>
+            获取菜单信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SAICVolkswagenVehicleManagementApi.Controllers.UserInfoController">
+            <summary>
+            用户信息控制器Api
+            </summary>
+        </member>
+        <member name="M:SAICVolkswagenVehicleManagementApi.Controllers.UserInfoController.#ctor(SAICVolkswagenVehicleManagement_Helper.IRepositoryWrapper)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="_dbContext"></param>
+        </member>
+        <member name="M:SAICVolkswagenVehicleManagementApi.Controllers.UserInfoController.GetUserInfoAsync">
+            <summary>
+            获取员工信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SAICVolkswagenVehicleManagementApi.Controllers.UserInfoController.LoginUserInfoAsync(SAICVolkswagenVehicleManagement_Model.R_UserInfo)">
+            <summary>
+            登录
+            </summary>
+            <param name="r_UserInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SAICVolkswagenVehicleManagementApi.Controllers.UserInfoController.GetFirstUserInfoAsync(System.Guid)">
+            <summary>
+            找到一条数据
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SAICVolkswagenVehicleManagementApi.Controllers.UserInfoController.InsertUserInfoAsync(SAICVolkswagenVehicleManagement_Model.R_UserInfo)">
+            <summary>
+            注册员工信息
+            </summary>
+            <param name="r_UserInfo"></param>
+            <returns>注册员工信息</returns>
+        </member>
+        <member name="M:SAICVolkswagenVehicleManagementApi.Controllers.UserInfoController.DeleteUserInfoAsync(SAICVolkswagenVehicleManagement_Model.R_UserInfo)">
+            <summary>
+            删除一条用户数据
+            </summary>
+            <param name="r_UserInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SAICVolkswagenVehicleManagementApi.Controllers.UserInfoController.UpdateUserInfoAsync(SAICVolkswagenVehicleManagement_Model.R_UserInfo)">
+            <summary>
+            修改一条用户数据
+            </summary>
+            <param name="r_UserInfo">反填的用户信息</param>
+            <returns></returns>
+        </member>
+        <member name="T:ResultTest.RetureStates">
+            <summary>
+            返回的状态
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAICVolkswagenVehicleManagementApi", "SAICVolkswagenVehicleManagementApi\SAICVolkswagenVehicleManagementApi.csproj", "{BA1E32EC-470E-41C7-95CD-50A4D3463970}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAICVolkswagenVehicleManagement_Model", "SAICVolkswagenVehicleManagement_Model\SAICVolkswagenVehicleManagement_Model.csproj", "{8A4BC0AA-6135-4789-B3CC-A9DB1EC7B175}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAICVolkswagenVehicleManagement_Common", "SAICVolkswagenVehicleManagement_Common\SAICVolkswagenVehicleManagement_Common.csproj", "{682E9576-03A9-42D0-9337-A2D1C04294CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAICVolkswagenVehicleManagement_Helper", "SAICVolkswagenVehicleManagement_Helper\SAICVolkswagenVehicleManagement_Helper.csproj", "{32E66E5B-C5B8-4E89-A3C3-4E28B6AB644A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA1E32EC-470E-41C7-95CD-50A4D3463970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA1E32EC-470E-41C7-95CD-50A4D3463970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA1E32EC-470E-41C7-95CD-50A4D3463970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA1E32EC-470E-41C7-95CD-50A4D3463970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A4BC0AA-6135-4789-B3CC-A9DB1EC7B175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A4BC0AA-6135-4789-B3CC-A9DB1EC7B175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A4BC0AA-6135-4789-B3CC-A9DB1EC7B175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A4BC0AA-6135-4789-B3CC-A9DB1EC7B175}.Release|Any CPU.Build.0 = Release|Any CPU
+		{682E9576-03A9-42D0-9337-A2D1C04294CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{682E9576-03A9-42D0-9337-A2D1C04294CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{682E9576-03A9-42D0-9337-A2D1C04294CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{682E9576-03A9-42D0-9337-A2D1C04294CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32E66E5B-C5B8-4E89-A3C3-4E28B6AB644A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32E66E5B-C5B8-4E89-A3C3-4E28B6AB644A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32E66E5B-C5B8-4E89-A3C3-4E28B6AB644A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32E66E5B-C5B8-4E89-A3C3-4E28B6AB644A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39341B41-05F8-477C-8C32-28146EAB015D}
+	EndGlobalSection
+EndGlobal
